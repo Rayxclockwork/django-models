@@ -6,6 +6,7 @@ from .models import Post
 
 class EntryList(ListView):
 	template_name = 'home.html'
+	model = Post
 
 class EntryDetail(DetailView):
 	template_name = 'detail.html'

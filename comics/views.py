@@ -5,7 +5,7 @@ from .models import Post
 # Create your views here.
 
 class EntryList(ListView):
-	template_name = 'home.html'
+	template_name = 'base.html'
 	model = Post
 
 class EntryDetail(DetailView):

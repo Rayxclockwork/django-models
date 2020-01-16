@@ -10,6 +10,7 @@ Use of django models to update page and use an admin page to add updates
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
 Clone repo in command line, install libraries to pipfile, ./manage.py runserver
+
 Open link to local server in command line to view page
 
 ## Architecture

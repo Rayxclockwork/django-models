@@ -9,6 +9,7 @@ class EntryList(ListView):
 	template_name = 'base.html'
 	model = Post
 
+
 	def get(self, request):
 		print('Hawkguy!')
 		posts = Post.objects.all()
@@ -18,3 +19,5 @@ class EntryList(ListView):
 
 class EntryDetail(DetailView):
 	template_name = 'detail.html'
+	
+	queryset = Post.objects.all()

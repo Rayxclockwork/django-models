@@ -5,6 +5,7 @@
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 401 class. (i.e. What's your problem domain?) -->
+
 Intro to Models on a django-driven site
 
 ## Getting Started
@@ -26,10 +27,14 @@ Built using Python, HTML, and Django
 on localhost, there is an admin view to create posts
 there are also several view pages(home, /detail)
 
+
 ## Change Log
 <!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 01-01-2001 4:59pm - Added functionality to add and delete some things.
 -->
-
+01/14/2020 initialized repo
+01/15/2020 working on pages, added to readme
 01/17/20 - Posts added, views being edited
-1/19/20 - working on views, added to readme
+1/19/20 - working on views
+
+
